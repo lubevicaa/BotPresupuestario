@@ -47,7 +47,7 @@ Ver `docs/manual_streamlit.md` para guía de uso y `resultados/` para evidencias
 - Verificacion local: 14/14 pruebas unitarias. Suite de aceptacion original: 23/24 (persiste ambiguedad en la consulta de presupuesto asignado de mantenimiento).
 
 ## Version 3.3 - 
-Se corrigieron comparaciones por importes, ranking de compromisos pendientes, preguntas ambiguas (se solicita aclaracion), seguimiento corto de una partida, resumen global con lenguaje cotidiano y rechazo de modificaciones. Vease `docs/cambios_fase3_3.md` para diferencias, pruebas y limitaciones.
+Se corrigieron comparaciones por importes, ranking de compromisos pendientes, preguntas ambiguas (se solicita aclaracion), seguimiento corto de una partida, resumen global con lenguaje cotidiano y rechazo de modificaciones. Suite de aceptacion original: 24/24 Vease `docs/cambios_fase3_3.md` para diferencias, pruebas y limitaciones.
 
 
 
