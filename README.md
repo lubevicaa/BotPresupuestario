@@ -2,7 +2,7 @@
 
 Proyecto académico de chatbot presupuestario para Comercial Delta S.A. (**empresa ficticia, datos 100 % sintéticos**).
 
-**Origen y atribución:** `nlp_model.py` y el flujo de entrenamiento derivan de *AndesBot*, ejemplo entregado por el docente. `reasoning.py`, corpus, datos, orquestación y la interfaz se adaptaron al caso presupuestario. Registrar esta reutilización en el informe y validar su uso académico con el docente.
+**Origen y atribución:** `nlp_model.py` y el flujo de entrenamiento derivan de *AndesBot*, ejemplo entregado por el docente. `reasoning.py`, corpus, datos, orquestación y la interfaz se adaptaron al caso presupuestario. 
 
 ## Cómo iniciar
 
@@ -60,7 +60,6 @@ Se corrigieron comparaciones por importes, ranking de compromisos pendientes, pr
 
 ## Generacion automatica de figuras y capturas para la entrega
 
-El docente puede reproducir evidencias en su computador sin recibir imagenes prehechas.
 Desde la carpeta que contiene `app.py`:
 
 ```powershell
@@ -72,8 +71,5 @@ python docs/generate_evidence.py
 
 - `docs/generate_figures.py` regenera cinco figuras desde `resultados/metricas_nlp.json` y la arquitectura documentada.
 - `docs/generate_captures.py` inicia Streamlit en un puerto libre, realiza preguntas automaticas a traves de Chromium y guarda tres capturas reales de pantalla. Cierra el servidor al terminar.
-- Resultados: `docs/figuras/*.png` y `docs/capturas/*.png`.
-- Solo figuras: `python docs/generate_evidence.py --solo-figuras`.
-- Solo capturas: `python docs/generate_evidence.py --solo-capturas`.
 
-El proceso no reentrena el modelo. Requiere instalar navegador de automatizacion con el paso `playwright install chromium` (una sola vez).
+
