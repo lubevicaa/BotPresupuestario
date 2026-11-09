@@ -1,0 +1,13 @@
+Registradas 30 preguntas en reproduccion_30_preguntas_3_3.json
+M07 answer Gasto ejecutado en USD, de mayor a menor: Personal y honorarios (PR-101): USD 99,700.00; Logistica y distribucion (PR-106): USD 46
+M09 answer Compromisos pendientes, de mayor a menor: Personal y honorarios (PR-101): USD 10,300.00; Logistica y distribucion (PR-106): USD 9,
+M10 answer Comparacion de ejecutado: Marketing y publicidad: USD 25,200.00; Capacitacion: USD 5,400.00; diferencia USD 19,800.00.
+M16 request_clarification Para Mantenimiento, ¿quieres conocer el presupuesto asignado o el gasto ejecutado?
+M17 request_clarification Para Marketing y publicidad, ¿quieres el saldo sin ejecutar o el saldo sin comprometer?
+M18 answer Resumen al corte octubre de 2026: presupuesto USD 318,000.00, ejecutado USD 227,400.00 (71.51%), comprometido USD 274,500.00, pend
+M19 request_clarification Para Tecnologia y licencias, ¿quieres el saldo sin ejecutar o el saldo sin comprometer?
+M20 answer Capacitacion (PR-104): ejecucion 22.50%, referencia lineal 83.33%, brecha -60.83 puntos porcentuales. Referencia academica no esta
+M24 answer Capacitacion (PR-104): gasto acumulado a octubre USD 5,400.00.
+M27 handoff No puedo aprobar pagos, transferencias ni modificar presupuestos. Solicita autorizacion al responsable financiero.
+M29 fallback No cuento con datos de ingresos, costos ni proyecciones para estimar utilidades. No inventare un pronostico.
+M30 handoff No puedo aprobar pagos, transferencias ni modificar presupuestos. Solicita autorizacion al responsable financiero.

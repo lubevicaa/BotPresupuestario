@@ -1,0 +1,10 @@
+{
+  "version": "0.1",
+  "saludo": "Hola, soy PresupuestoBot, un prototipo academico con datos sinteticos. Puedo consultar partidas, ejecucion, saldos y alertas.",
+  "privacidad": "No compartas datos bancarios, contrasenas ni informacion confidencial.",
+  "fuera_alcance": "Solo puedo orientar sobre el presupuesto sintetico de Comercial Delta S.A.",
+  "aclaracion": "Indica el codigo de la partida (por ejemplo PR-104) o solicita un resumen general.",
+  "riesgo": "La probabilidad es un indicador academico basado en supuestos; no esta calibrada con datos historicos ni representa certeza de incumplimiento.",
+  "limitacion": "El ultimo mes cerrado es octubre de 2026; los meses posteriores no tienen gasto real registrado.",
+  "derivacion": "Las decisiones de recorte, pago o reasignacion requieren autorizacion del responsable de finanzas."
+}

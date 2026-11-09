@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "seed": 42,
+    "word_embedding_dim": 32,
+    "lexical_tfidf_dim": 4022,
+    "learned_dense_projection_dim": 48,
+    "hidden_dim": 64,
+    "representation": "trainable word embeddings + word/char TF-IDF projection + residual MLP + frozen linear skip",
+    "max_len": 24,
+    "epochs": 100,
+    "train_size": 221,
+    "validation_size": 65,
+    "test_size": 52,
+    "parameters": 263080,
+    "vocabulary_size": 364,
+    "latency_ms_mean_cpu": 1.0051825115388406
+  },
+  "validation_accuracy": 0.7384615384615385,
+  "test_accuracy": 0.8461538461538461,
+  "test_macro_f1": 0.8437118437118437,
+  "baseline": {
+    "accuracy": 0.75,
+    "macro_f1": 0.7424908424908426
+  }
+}

@@ -1,0 +1,9 @@
+MANUAL BÁSICO - PRESUPUESTOBOT EC V0.2
+1. Instale los requisitos: python -m pip install -r requirements.txt
+2. Inicie: python src/cli.py
+3. Pregunte por cualquier partida, por ejemplo "qué porcentaje lleva PR-104".
+4. Cuando se le solicite la partida, escriba "PR-102" o "marketing".
+5. Para el resumen: "dame un resumen del presupuesto".
+6. Para cerrar escriba "salir".
+El sistema consulta solo datos ficticios con corte 2026-10. No permite pagar,
+transferir ni autorizar operaciones. Las probabilidades Bayes son supuestos.

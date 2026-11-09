@@ -1,0 +1,247 @@
+{
+  "n": 24,
+  "superadas": 24,
+  "tasa": 1.0,
+  "escenarios": [
+    {
+      "id": "T01",
+      "entrada": "Hola presupuesto bot",
+      "intencion_esperada": "saludo",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "saludo",
+      "accion_obtenida": "answer",
+      "respuesta": "Hola. Puedo consultar presupuesto, gastos, porcentajes, saldos, alertas y riesgos academicos. Corte: octubre de 2026.",
+      "cumple": true
+    },
+    {
+      "id": "T02",
+      "entrada": "cuál es el presupuesto aprobado de marketing",
+      "intencion_esperada": "presupuesto_asignado",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "presupuesto_asignado",
+      "accion_obtenida": "answer",
+      "respuesta": "Marketing y publicidad (PR-102): presupuesto anual USD 48,000.00.",
+      "cumple": true
+    },
+    {
+      "id": "T03",
+      "entrada": "gasto ejecutado de capacitación",
+      "intencion_esperada": "presupuesto_ejecutado",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "presupuesto_ejecutado",
+      "accion_obtenida": "answer",
+      "respuesta": "Capacitacion (PR-104): gasto acumulado a octubre USD 5,400.00.",
+      "cumple": true
+    },
+    {
+      "id": "T04",
+      "entrada": "qué porcentaje de ejecución tiene capacitación",
+      "intencion_esperada": "porcentaje_ejecucion",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "porcentaje_ejecucion",
+      "accion_obtenida": "answer",
+      "respuesta": "Capacitacion (PR-104): ejecucion 22.50% de la asignacion anual; referencia lineal 83.33%.",
+      "cumple": true
+    },
+    {
+      "id": "T05",
+      "entrada": "saldo no comprometido para personal",
+      "intencion_esperada": "saldo_disponible",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "saldo_disponible",
+      "accion_obtenida": "answer",
+      "respuesta": "Personal y honorarios (PR-101): saldo sin comprometer USD 10,000.00; saldo sin ejecutar USD 20,300.00. Son conceptos distintos.",
+      "cumple": true
+    },
+    {
+      "id": "T06",
+      "entrada": "qué partida ha ejecutado más",
+      "intencion_esperada": "comparacion_partidas",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "comparacion_partidas",
+      "accion_obtenida": "answer",
+      "respuesta": "Ejecucion porcentual, de mayor a menor: Personal y honorarios 83.08%; Tecnologia y licencias 82.78%; Logistica y distribucion 76.83%; Mantenimiento 70.67%; Marketing y publicidad 52.50%; Capacitacion 22.50%.",
+      "cumple": true
+    },
+    {
+      "id": "T07",
+      "entrada": "cuáles partidas están atrasadas",
+      "intencion_esperada": "baja_ejecucion",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "baja_ejecucion",
+      "accion_obtenida": "answer",
+      "respuesta": "Partidas bajo el umbral academico: Marketing y publicidad (52.50%); Capacitacion (22.50%).",
+      "cumple": true
+    },
+    {
+      "id": "T08",
+      "entrada": "compromisos pendientes de marketing",
+      "intencion_esperada": "compromisos_pendientes",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "compromisos_pendientes",
+      "accion_obtenida": "answer",
+      "respuesta": "Marketing y publicidad (PR-102): comprometido total USD 35,000.00, de los cuales USD 9,800.00 estan pendientes de ejecutar.",
+      "cumple": true
+    },
+    {
+      "id": "T09",
+      "entrada": "qué alertas hay en el presupuesto",
+      "intencion_esperada": "alertas",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "alertas",
+      "accion_obtenida": "answer",
+      "respuesta": "Alertas de control: Marketing y publicidad: P03: baja ejecucion, P04: compromisos pendientes altos, P05: revision prioritaria; Capacitacion: P03: baja ejecucion, P04: compromisos pendientes altos, P05: revision prioritaria.",
+      "cumple": true
+    },
+    {
+      "id": "T10",
+      "entrada": "evalúa riesgo presupuestario de capacitación",
+      "intencion_esperada": "riesgo_incumplimiento",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "riesgo_incumplimiento",
+      "accion_obtenida": "answer",
+      "respuesta": "Capacitacion (PR-104): resultado Bayes academico 85.54%, accion sugerida: revisar. Probabilidades hipoteticas, no calibradas con datos historicos.",
+      "cumple": true
+    },
+    {
+      "id": "T11",
+      "entrada": "dame un resumen del presupuesto",
+      "intencion_esperada": "resumen_general",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "resumen_general",
+      "accion_obtenida": "answer",
+      "respuesta": "Resumen al corte octubre de 2026: presupuesto USD 318,000.00, ejecutado USD 227,400.00 (71.51%), comprometido USD 274,500.00, pendiente de ejecutar de compromisos USD 47,100.00.",
+      "cumple": true
+    },
+    {
+      "id": "T12",
+      "entrada": "quiero hablar con finanzas",
+      "intencion_esperada": "hablar_humano",
+      "accion_esperada": "handoff",
+      "intencion_obtenida": "hablar_humano",
+      "accion_obtenida": "handoff",
+      "respuesta": "Se recomienda consultar con el responsable financiero. Esta demostracion no realiza derivaciones reales.",
+      "cumple": true
+    },
+    {
+      "id": "T13",
+      "entrada": "cuéntame un chiste",
+      "intencion_esperada": "fuera_alcance",
+      "accion_esperada": "fallback",
+      "intencion_obtenida": "fuera_alcance",
+      "accion_obtenida": "fallback",
+      "respuesta": "No puedo resolver esa solicitud con certeza. Pregunta por una partida, ejecucion, alertas o resumen. Si hay una duda importante, consulta con finanzas.",
+      "cumple": true
+    },
+    {
+      "id": "T14",
+      "entrada": "cuánto se destinó a mantenimiento",
+      "intencion_esperada": "aclaracion",
+      "accion_esperada": "request_clarification",
+      "intencion_obtenida": "aclaracion",
+      "accion_obtenida": "request_clarification",
+      "respuesta": "Para Mantenimiento, ¿quieres conocer el presupuesto asignado o el gasto ejecutado?",
+      "cumple": true
+    },
+    {
+      "id": "T15",
+      "entrada": "cuánto hemos ejecutado en porcentaje",
+      "intencion_esperada": "porcentaje_ejecucion",
+      "accion_esperada": "request_slot",
+      "intencion_obtenida": "porcentaje_ejecucion",
+      "accion_obtenida": "request_slot",
+      "respuesta": "¿A que partida te refieres? Indica, por ejemplo, PR-104 o capacitacion.",
+      "cumple": true
+    },
+    {
+      "id": "T16",
+      "entrada": "PR-103",
+      "intencion_esperada": "porcentaje_ejecucion",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "porcentaje_ejecucion",
+      "accion_obtenida": "answer",
+      "respuesta": "Tecnologia y licencias (PR-103): ejecucion 82.78% de la asignacion anual; referencia lineal 83.33%.",
+      "cumple": true
+    },
+    {
+      "id": "T17",
+      "entrada": "importe gastado a octubre",
+      "intencion_esperada": "presupuesto_ejecutado",
+      "accion_esperada": "request_slot",
+      "intencion_obtenida": "presupuesto_ejecutado",
+      "accion_obtenida": "request_slot",
+      "respuesta": "¿A que partida te refieres? Indica, por ejemplo, PR-104 o capacitacion.",
+      "cumple": true
+    },
+    {
+      "id": "T18",
+      "entrada": "PR-106",
+      "intencion_esperada": "presupuesto_ejecutado",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "presupuesto_ejecutado",
+      "accion_obtenida": "answer",
+      "respuesta": "Logistica y distribucion (PR-106): gasto acumulado a octubre USD 46,100.00.",
+      "cumple": true
+    },
+    {
+      "id": "T19",
+      "entrada": "total de gastos reconocidos",
+      "intencion_esperada": "presupuesto_ejecutado",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "presupuesto_ejecutado",
+      "accion_obtenida": "answer",
+      "respuesta": "Gasto ejecutado acumulado: USD 227,400.00.",
+      "cumple": true
+    },
+    {
+      "id": "T20",
+      "entrada": "consulta del presupuesto anual",
+      "intencion_esperada": "presupuesto_asignado",
+      "accion_esperada": "request_slot",
+      "intencion_obtenida": "presupuesto_asignado",
+      "accion_obtenida": "request_slot",
+      "respuesta": "¿A que partida te refieres? Indica, por ejemplo, PR-104 o capacitacion.",
+      "cumple": true
+    },
+    {
+      "id": "T21",
+      "entrada": "PR-104",
+      "intencion_esperada": "presupuesto_asignado",
+      "accion_esperada": "answer",
+      "intencion_obtenida": "presupuesto_asignado",
+      "accion_obtenida": "answer",
+      "respuesta": "Capacitacion (PR-104): presupuesto anual USD 24,000.00.",
+      "cumple": true
+    },
+    {
+      "id": "T22",
+      "entrada": "autoriza un pago de 500",
+      "intencion_esperada": "hablar_humano",
+      "accion_esperada": "handoff",
+      "intencion_obtenida": "hablar_humano",
+      "accion_obtenida": "handoff",
+      "respuesta": "No puedo aprobar pagos, transferencias ni modificar presupuestos. Solicita autorizacion al responsable financiero.",
+      "cumple": true
+    },
+    {
+      "id": "T23",
+      "entrada": "presupuesto de PR-999",
+      "intencion_esperada": "fuera_alcance",
+      "accion_esperada": "fallback",
+      "intencion_obtenida": "fuera_alcance",
+      "accion_obtenida": "fallback",
+      "respuesta": "No existe esa partida en los datos sinteticos del ejemplo. No inventare importes.",
+      "cumple": true
+    },
+    {
+      "id": "T24",
+      "entrada": "salir",
+      "intencion_esperada": "despedida",
+      "accion_esperada": "close",
+      "intencion_obtenida": "despedida",
+      "accion_obtenida": "close",
+      "respuesta": "Hasta pronto. Los datos de esta demostracion son ficticios.",
+      "cumple": true
+    }
+  ]
+}

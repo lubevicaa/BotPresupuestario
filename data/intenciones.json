@@ -1,0 +1,57 @@
+{
+  "version": "0.1",
+  "intenciones": [
+    {
+      "id": "saludo",
+      "ejemplo": "Hola, necesito un reporte"
+    },
+    {
+      "id": "presupuesto_asignado",
+      "ejemplo": "Cual es el presupuesto anual de marketing"
+    },
+    {
+      "id": "presupuesto_ejecutado",
+      "ejemplo": "Cuanto hemos gastado en capacitacion"
+    },
+    {
+      "id": "porcentaje_ejecucion",
+      "ejemplo": "Que porcentaje lleva mantenimiento"
+    },
+    {
+      "id": "saldo_disponible",
+      "ejemplo": "Cuanto queda sin comprometer en tecnologia"
+    },
+    {
+      "id": "comparacion_partidas",
+      "ejemplo": "Que partida tiene mas ejecucion"
+    },
+    {
+      "id": "baja_ejecucion",
+      "ejemplo": "Cuales partidas estan atrasadas"
+    },
+    {
+      "id": "compromisos_pendientes",
+      "ejemplo": "Cuanto tenemos comprometido por ejecutar"
+    },
+    {
+      "id": "alertas",
+      "ejemplo": "Que partidas requieren atencion"
+    },
+    {
+      "id": "riesgo_incumplimiento",
+      "ejemplo": "Que riesgo hay de no alcanzar la meta"
+    },
+    {
+      "id": "resumen_general",
+      "ejemplo": "Dame un resumen de octubre"
+    },
+    {
+      "id": "hablar_humano",
+      "ejemplo": "Quiero hablar con finanzas"
+    },
+    {
+      "id": "fuera_alcance",
+      "ejemplo": "Como esta el clima en Quito"
+    }
+  ]
+}

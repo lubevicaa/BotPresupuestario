@@ -1,0 +1,142 @@
+{
+  "empresa": "Comercial Delta S.A. (ficticia)",
+  "tipo": "empresa privada",
+  "moneda": "USD",
+  "periodo_corte": "2026-10",
+  "anio": 2026,
+  "meses_cerrados": 10,
+  "campos": {
+    "presupuesto_anual": "Presupuesto aprobado del anio completo",
+    "comprometido_acumulado": "Pedidos/contratos aprobados, incluyendo gastos ya realizados",
+    "real_mensual": "Gasto reconocido por mes, no incluye pagos como variable separada",
+    "ejecutado_acumulado": "Suma de gasto reconocido enero-octubre",
+    "compromiso_pendiente": "comprometido_acumulado menos ejecutado_acumulado"
+  },
+  "notas": [
+    "Todas las cifras son sinteticas y no representan una empresa real.",
+    "Comprometido acumulado incluye lo ya ejecutado; no debe sumarse al ejecutado.",
+    "Las metas lineales sirven solo como umbrales academicos, no como norma universal."
+  ],
+  "partidas": [
+    {
+      "id": "PR-101",
+      "nombre": "Personal y honorarios",
+      "presupuesto_anual": 120000,
+      "comprometido_acumulado": 110000,
+      "real_mensual": {
+        "2026-01": 9800,
+        "2026-02": 9800,
+        "2026-03": 9900,
+        "2026-04": 9900,
+        "2026-05": 10000,
+        "2026-06": 10000,
+        "2026-07": 10000,
+        "2026-08": 10100,
+        "2026-09": 10100,
+        "2026-10": 10100
+      },
+      "ejecutado_acumulado": 99700,
+      "compromiso_pendiente": 10300
+    },
+    {
+      "id": "PR-102",
+      "nombre": "Marketing y publicidad",
+      "presupuesto_anual": 48000,
+      "comprometido_acumulado": 35000,
+      "real_mensual": {
+        "2026-01": 1500,
+        "2026-02": 1700,
+        "2026-03": 2000,
+        "2026-04": 2300,
+        "2026-05": 2600,
+        "2026-06": 2500,
+        "2026-07": 3000,
+        "2026-08": 3100,
+        "2026-09": 3200,
+        "2026-10": 3300
+      },
+      "ejecutado_acumulado": 25200,
+      "compromiso_pendiente": 9800
+    },
+    {
+      "id": "PR-103",
+      "nombre": "Tecnologia y licencias",
+      "presupuesto_anual": 36000,
+      "comprometido_acumulado": 32000,
+      "real_mensual": {
+        "2026-01": 3500,
+        "2026-02": 2800,
+        "2026-03": 2800,
+        "2026-04": 3000,
+        "2026-05": 3000,
+        "2026-06": 2700,
+        "2026-07": 2900,
+        "2026-08": 3100,
+        "2026-09": 3000,
+        "2026-10": 3000
+      },
+      "ejecutado_acumulado": 29800,
+      "compromiso_pendiente": 2200
+    },
+    {
+      "id": "PR-104",
+      "nombre": "Capacitacion",
+      "presupuesto_anual": 24000,
+      "comprometido_acumulado": 15000,
+      "real_mensual": {
+        "2026-01": 300,
+        "2026-02": 500,
+        "2026-03": 700,
+        "2026-04": 400,
+        "2026-05": 500,
+        "2026-06": 800,
+        "2026-07": 700,
+        "2026-08": 600,
+        "2026-09": 400,
+        "2026-10": 500
+      },
+      "ejecutado_acumulado": 5400,
+      "compromiso_pendiente": 9600
+    },
+    {
+      "id": "PR-105",
+      "nombre": "Mantenimiento",
+      "presupuesto_anual": 30000,
+      "comprometido_acumulado": 26500,
+      "real_mensual": {
+        "2026-01": 1500,
+        "2026-02": 1800,
+        "2026-03": 2200,
+        "2026-04": 2100,
+        "2026-05": 2000,
+        "2026-06": 2400,
+        "2026-07": 2500,
+        "2026-08": 2000,
+        "2026-09": 2400,
+        "2026-10": 2300
+      },
+      "ejecutado_acumulado": 21200,
+      "compromiso_pendiente": 5300
+    },
+    {
+      "id": "PR-106",
+      "nombre": "Logistica y distribucion",
+      "presupuesto_anual": 60000,
+      "comprometido_acumulado": 56000,
+      "real_mensual": {
+        "2026-01": 3900,
+        "2026-02": 4000,
+        "2026-03": 4200,
+        "2026-04": 4500,
+        "2026-05": 4800,
+        "2026-06": 4500,
+        "2026-07": 5000,
+        "2026-08": 4900,
+        "2026-09": 5200,
+        "2026-10": 5100
+      },
+      "ejecutado_acumulado": 46100,
+      "compromiso_pendiente": 9900
+    }
+  ]
+}

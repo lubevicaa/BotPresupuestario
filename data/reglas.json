@@ -1,0 +1,62 @@
+{
+  "version": "0.1-academica",
+  "periodo_corte": "2026-10",
+  "definiciones": {
+    "ejecucion_pct": "100 * ejecutado_acumulado / presupuesto_anual",
+    "saldo_sin_ejecutar": "presupuesto_anual - ejecutado_acumulado",
+    "saldo_sin_comprometer": "presupuesto_anual - comprometido_acumulado",
+    "compromiso_pendiente": "comprometido_acumulado - ejecutado_acumulado",
+    "brecha_puntos": "ejecucion_pct - meta_lineal_pct"
+  },
+  "parametros": {
+    "meta_lineal_pct": 83.3333,
+    "baja_ejecucion_brecha_pp": 15,
+    "compromiso_pendiente_alto_pct_presupuesto": 20,
+    "riesgo_tiempo_meses_restantes_max": 2,
+    "umbral_alerta_bayes": 0.65
+  },
+  "reglas": [
+    {
+      "id": "P01",
+      "condicion": "presupuesto_anual <= 0",
+      "accion": "no_calcular_y_solicitar_revision",
+      "motivo": "Evitar divisiones por cero e indicadores invalidos"
+    },
+    {
+      "id": "P02",
+      "condicion": "ejecutado_acumulado > presupuesto_anual",
+      "accion": "alerta_sobreejecucion",
+      "motivo": "Gasto real supera presupuesto; validar fuente"
+    },
+    {
+      "id": "P03",
+      "condicion": "ejecucion_pct < meta_lineal_pct - 15",
+      "accion": "alerta_baja_ejecucion",
+      "motivo": "Desviacion respecto de meta lineal academica"
+    },
+    {
+      "id": "P04",
+      "condicion": "compromiso_pendiente / presupuesto_anual > 0.20",
+      "accion": "revisar_compromisos",
+      "motivo": "Compromisos aprobados pendientes de ejecucion elevados"
+    },
+    {
+      "id": "P05",
+      "condicion": "meses_restantes <= 2 and brecha_puntos < -15",
+      "accion": "priorizar_revision",
+      "motivo": "Poco tiempo y brecha alta"
+    },
+    {
+      "id": "P06",
+      "condicion": "partida inexistente o fecha posterior al corte",
+      "accion": "no_inventar_datos",
+      "motivo": "Responder con limitacion de datos"
+    },
+    {
+      "id": "P07",
+      "condicion": "solicitud de decision financiera automatica",
+      "accion": "derivar_a_responsable",
+      "motivo": "No autorizar pagos, redistribuciones ni presupuestos"
+    }
+  ]
+}

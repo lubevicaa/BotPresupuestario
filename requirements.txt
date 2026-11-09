@@ -1,0 +1,12 @@
+# PresupuestoBot 3.3.2 - dependencias de ejecucion y evidencias
+# Entorno verificado por el equipo: Windows, Python 3.14.x.
+# El modelo NLP serializado fue creado con scikit-learn 1.8.0.
+# ATENCION: no cargar modelos serializados de procedencia desconocida.
+numpy>=2.2,<3
+scikit-learn==1.8.0
+torch>=2.2,<3
+streamlit>=1.35,<2
+matplotlib>=3.8,<4
+playwright>=1.55,<2
+# Chromium de Playwright requiere instalacion separada:
+# python -m playwright install chromium

@@ -1,0 +1,21 @@
+PRESUPUESTOBOT 3.3.2 - GENERACION REPRODUCIBLE DE EVIDENCIAS
+
+Ejecutar en PowerShell desde la carpeta que contiene app.py:
+
+1. python -m pip install -r requirements.txt
+2. python -m pip install playwright
+3. python -m playwright install chromium
+4. python docs/generate_evidence.py
+
+El paso 4 genera cinco figuras en docs/figuras a partir de resultados/metricas_nlp.json
+Y tres capturas REALES de Streamlit en docs/capturas. Inicia y detiene un servidor
+Streamlit temporal en un puerto libre. No se requiere un servidor manual previo.
+
+Si solo deseas figuras: python docs/generate_evidence.py --solo-figuras
+Si solo deseas capturas: python docs/generate_evidence.py --solo-capturas
+
+LIMITES: graficos NLP provienen del entrenamiento Fase 3 guardado; NO reentrenan.
+Capturas automaticas son evidencia del comportamiento del chatbot en ese entorno.
+No sustituye validacion independiente ni representa probabilidades reales.
+
+Los archivos se sobrescriben al regenerarlos, y se preserva el codigo y el modelo.

@@ -1,0 +1,17 @@
+test_bloqueo_autorizacion (test_chatbot.TestChatbot.test_bloqueo_autorizacion) ... ok
+test_codigo_inexistente (test_chatbot.TestChatbot.test_codigo_inexistente) ... ok
+test_codigos (test_chatbot.TestChatbot.test_codigos) ... ok
+test_consulta_directa (test_chatbot.TestChatbot.test_consulta_directa) ... ok
+test_resumen_total (test_chatbot.TestChatbot.test_resumen_total) ... ok
+test_saldos_contables (test_chatbot.TestChatbot.test_saldos_contables) ... ok
+test_slot_solicitud (test_chatbot.TestChatbot.test_slot_solicitud) ... ok
+test_bayes_limites (test_rules.TestRules.test_bayes_limites) ... ok
+test_capacitacion_alerta (test_rules.TestRules.test_capacitacion_alerta) ... ok
+test_presupuesto_cero (test_rules.TestRules.test_presupuesto_cero) ... ok
+test_saldos_no_duplican_compromisos (test_rules.TestRules.test_saldos_no_duplican_compromisos) ... ok
+test_sumas_y_compromisos (test_rules.TestRules.test_sumas_y_compromisos) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.793s
+
+OK

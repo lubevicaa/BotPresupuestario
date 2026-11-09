@@ -1,0 +1,28 @@
+test_bloqueo_autorizacion (test_chatbot.TestChatbot.test_bloqueo_autorizacion) ... ok
+test_codigo_inexistente (test_chatbot.TestChatbot.test_codigo_inexistente) ... ok
+test_codigos (test_chatbot.TestChatbot.test_codigos) ... ok
+test_consulta_directa (test_chatbot.TestChatbot.test_consulta_directa) ... ok
+test_mayor_riesgo_sin_partida (test_chatbot.TestChatbot.test_mayor_riesgo_sin_partida) ... ok
+test_ranking_riesgo (test_chatbot.TestChatbot.test_ranking_riesgo) ... ok
+test_resumen_total (test_chatbot.TestChatbot.test_resumen_total) ... ok
+test_saldos_contables (test_chatbot.TestChatbot.test_saldos_contables) ... ok
+test_slot_solicitud (test_chatbot.TestChatbot.test_slot_solicitud) ... ok
+test_bloqueo_acciones_financieras (test_financial_integrity.TestFinancialIntegrity.test_bloqueo_acciones_financieras) ... ok
+test_cada_partida_calculo_y_saldos (test_financial_integrity.TestFinancialIntegrity.test_cada_partida_calculo_y_saldos) ... ok
+test_comparacion_ordenada (test_financial_integrity.TestFinancialIntegrity.test_comparacion_ordenada) ... ok
+test_comparacion_riesgo_y_advertencia (test_financial_integrity.TestFinancialIntegrity.test_comparacion_riesgo_y_advertencia) ... ok
+test_error_semantico_documentado_sin_ocultarlo (test_financial_integrity.TestFinancialIntegrity.test_error_semantico_documentado_sin_ocultarlo) ... ok
+test_filas_mensuales_y_conciliacion (test_financial_integrity.TestFinancialIntegrity.test_filas_mensuales_y_conciliacion) ... ok
+test_partida_inexistente_no_inventa_cifras (test_financial_integrity.TestFinancialIntegrity.test_partida_inexistente_no_inventa_cifras) ... ok
+test_respuestas_numericas_por_partida (test_financial_integrity.TestFinancialIntegrity.test_respuestas_numericas_por_partida) ... ok
+test_totales_globales (test_financial_integrity.TestFinancialIntegrity.test_totales_globales) ... ok
+test_bayes_limites (test_rules.TestRules.test_bayes_limites) ... ok
+test_capacitacion_alerta (test_rules.TestRules.test_capacitacion_alerta) ... ok
+test_presupuesto_cero (test_rules.TestRules.test_presupuesto_cero) ... ok
+test_saldos_no_duplican_compromisos (test_rules.TestRules.test_saldos_no_duplican_compromisos) ... ok
+test_sumas_y_compromisos (test_rules.TestRules.test_sumas_y_compromisos) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.796s
+
+OK
